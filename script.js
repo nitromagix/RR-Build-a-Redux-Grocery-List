@@ -43,7 +43,7 @@ const newGrocery = (e) => {
         type: 'grocery/add',
         text: groceryText
     })
-    console.log(store.getState())
+    document.getElementById('newItem').value = ''
 }
 
 const clearList = () => {
